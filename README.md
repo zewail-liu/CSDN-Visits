@@ -1,18 +1,16 @@
-# CSDN-increase-page-views
-CSDN高效安全刷访问量，基于selenium的爬虫实现， 提升文章的SEO。仅供原始浏览量积累，不要刷的太过分。
+# 描述
+基于selenium实现的Chrome浏览器后台刷CSDN浏览量，参考原作者做了一些修改。
 
-# 效果
-![image](https://github.com/TianLin0509/CSDN-increase-page-views/blob/master/show.png)
-
-# 第三方库
-* 先```pip install selenium```
-* 搜索下载Chromedriver, 否则selenium在谷歌浏览器上的使用可能会有bug，具体百度。
+# 依赖
+* `selenium`、`keyboard`，可使用`pip install`安装。
+* 根据Chrome版本下载`Chromedriver`, 并配置环境变量。
 
 
 
-# 使用
-* 先运行```get_cookies.py'''， 然后手动登录CSDN账号，等待程序运行结束
-* 运行```CSDN_cookies.py''', 开刷
+# 使用注意
+* 参数设置为你的CSDN username
+* 首次运行时根据提示进行登录获取Cookies
+
 
 # 注意
 不要刷太多，适可而止。
