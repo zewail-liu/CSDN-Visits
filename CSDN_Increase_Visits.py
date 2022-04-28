@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-def click_loop(user_name: str = 'aaaaaaze', loops: int = 86400, duration: float = 0.0):
+def click_loop(user_name: str = 'YourUsername', loops: int = 86400, duration: float = 0.0):
     """
     :param user_name: CSDN username
     :param loops: times to loop
@@ -71,4 +71,4 @@ def click_loop(user_name: str = 'aaaaaaze', loops: int = 86400, duration: float 
 
 
 if __name__ == '__main__':
-    click_loop(user_name='aaaaaaze')
+    click_loop(user_name='YourUsername')
